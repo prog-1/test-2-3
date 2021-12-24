@@ -75,7 +75,7 @@ For example, the initial number in the first (or any other) row is `1` (the sum
 of `0` and `1`), whereas the numbers `1` and `3` in the third row are added to
 produce the number `4` in the fourth row:
 
-https://upload.wikimedia.org/wikipedia/commons/0/0d/PascalTriangleAnimated2.gif
+![triangle animation](https://upload.wikimedia.org/wikipedia/commons/0/0d/PascalTriangleAnimated2.gif)
 
 Or in an array form:
 ```
