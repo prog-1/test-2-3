@@ -51,3 +51,69 @@ Enter Wanshinn-X sensors sequence: 13579
 Correct is sequence is           : 13579
 ```
 
+## 2. Hack the cypher
+
+You have implemented the filter and restored the communication flow of
+Wahnsinn-X complex. However the nuclear thread prevention sequence has been
+already launched and you can see red numbers on a black dashboard going down.
+You understand it being a humanity final countdown.
+
+You remember hearing about the Doof Maulwurf system that can prevent a doom day.
+And you are very lucky to find a gateway to Doof Maulwurf through the Dark Net.
+Hackers of the whole world are trying to break the code of Maulwurf. 
+
+After heavy brainstorming with other hackers and multiple hacking attempts you
+are sure that you have cracked the sequence that would enable Doof Maulwurf and
+save the world:
+
+- In row 0 (the topmost row), there is a unique nonzero entry `1`.
+- Each entry of each subsequent row is constructed by adding the number above
+  and to the left with the number above and to the right, treating blank entries
+  as `0`.
+  
+For example, the initial number in the first (or any other) row is `1` (the sum
+of `0` and `1`), whereas the numbers `1` and `3` in the third row are added to
+produce the number `4` in the fourth row:
+
+https://upload.wikimedia.org/wikipedia/commons/0/0d/PascalTriangleAnimated2.gif
+
+Or in an array form:
+```
+1 0 0 0 0
+1 1 0 0 0
+1 2 3 0 0
+1 3 3 1 0
+1 4 6 4 1
+```
+
+Your task is to create an application called `doof-maulwurf` which accepts a
+positive number of rows of the key to generate, and outputs the key. Since it's
+important the program works correct, you also have to create tests for it.
+
+Hurry up! Doof Maulwurf must be activated to save the humanity!
+
+### Example 1
+
+```
+The program generates a key to enable Doof Maulwurf.
+
+Enter amount of rows to generate: 1
+
+The key is:
+1
+```
+
+### Example 2
+
+```
+The program generates a key to enable Doof Maulwurf.
+
+Enter amount of rows to generate: 5
+
+The key is:
+1 0 0 0 0
+1 1 0 0 0
+1 2 3 0 0
+1 3 3 1 0
+1 4 6 4 1
+```
