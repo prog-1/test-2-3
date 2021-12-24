@@ -35,6 +35,19 @@ and the world is actually saved.
 
 You don't have much time left! The world's safety is in your hands!
 
+### Example 1
 
+```
+Enter Wanshinn-X sensors sequence: 123456789
+Correct is sequence is           : 2456789
+```
 
+Odd numbers `1` and `3` are followed by `4` or `2`, so they have to be removed.
+
+### Example 2
+
+```
+Enter Wanshinn-X sensors sequence: 13579
+Correct is sequence is           : 13579
+```
 
