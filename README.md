@@ -81,7 +81,7 @@ Or in an array form:
 ```
 1 0 0 0 0
 1 1 0 0 0
-1 2 3 0 0
+1 2 1 0 0
 1 3 3 1 0
 1 4 6 4 1
 ```
@@ -113,7 +113,7 @@ Enter amount of rows to generate: 5
 The key is:
 1 0 0 0 0
 1 1 0 0 0
-1 2 3 0 0
+1 2 1 0 0
 1 3 3 1 0
 1 4 6 4 1
 ```
