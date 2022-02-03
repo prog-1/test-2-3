@@ -37,4 +37,7 @@ func Testdoofmaulwurf(t *testing.T) {
 
 		}
 	}
+	if ok {
+		fmt.Println("PASS")
+	}
 }

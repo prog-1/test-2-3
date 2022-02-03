@@ -25,4 +25,7 @@ func Testfilterdigits(t *testing.T) {
 
 		}
 	}
+	if ok {
+		fmt.Println("PASS")
+	}
 }
